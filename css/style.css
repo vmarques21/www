@@ -1,17 +1,16 @@
-
-
 *{
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
 }
 
+
+
 body{
   font-family: Arial, sans-serif;
   color:white;
   background-color:black;
   text-align: center;
-
 }
 
 h1{
@@ -24,15 +23,26 @@ h1{
 	display:block;
 }
 
-#box1{       
+main{       
     display: flex;
     align-items: center;
     justify-content: center;
 	flex-direction: column;
     background-color: #17a2b8;
-    height: 100vh;
     width:100%;
+	flex: 1;
 
 }
 
+#siteContent{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+footer{
+	height:20vh;
+	max-height:400px;
+	
+}
 
