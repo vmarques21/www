@@ -8,7 +8,7 @@
 
 body{
   font-family: Arial, sans-serif;
-  color:white;
+  color:#25873A;
   background-color:black;
   text-align: center;
 }
@@ -28,7 +28,7 @@ main{
     align-items: center;
     justify-content: center;
 	flex-direction: column;
-    background-color: #17a2b8;
+    background-color: #F2B606;
     width:100%;
 	flex: 1;
 
